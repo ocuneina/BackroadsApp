@@ -1,15 +1,19 @@
-import './App.css';
-import BookList from './components/BookList';
-
-function Header() {
-  return <h1 className="amazonHeader">Amazon Bestsellers</h1>;
-}
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Services from './components/Services';
+import Tours from './components/Tours';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-      <Header />
-      <BookList />
+      <Navbar />
+      <Hero />
+      <About />
+      <Services />
+      <Tours />
+      <Footer />
     </>
   );
 }
